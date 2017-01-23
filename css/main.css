@@ -12,16 +12,19 @@ html {
 
 .center {
   width: 28px;
+  transform: translate(100px,75px);
 }
 
 .hand {
   width: 14px;
+
 }
 
 .hand-hour {
-
+  transform: translate(143px,75px);
+  transform-origin: center bottom;
 }
-
 .hand-minute {
-
+ transform: translate(125px,75px);
+ transform-origin: center bottom;
 }
